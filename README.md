@@ -8,10 +8,10 @@ Atividade sobre transição de estado de uma tarefa no sistema operacional
 **Descrição:**
 Nesta atividade, você irá identificar e descrever os principais estados de uma tarefa em um sistema operacional. Os estados básicos incluem:
 
-- **Novo (New):** O processo está sendo criado
+- **Novo (New):** O processo está sendo criado e ainda não foi admitido pelo sistema operacional na fila de processos prontos
 - **Pronto (Ready):** O processo está aguardando ser atribuído a um processador
 - **Executando (Running):** As instruções do processo estão sendo executadas
-- **Esperando (Waiting/Blocked):** O processo está aguardando algum evento ocorrer (como conclusão de E/S)
+- **Esperando (Waiting/Blocked):** O processo está aguardando algum evento ocorrer (como conclusão de E/S, liberação de semáforo, término de processo filho, etc.)
 - **Terminado (Terminated):** O processo terminou sua execução
 
 **Tarefas:**
